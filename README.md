@@ -1,0 +1,2 @@
+# PHP unset() in foreach Loop Bug
+This repository demonstrates a subtle bug in PHP where using `unset()` within a `foreach` loop on an array passed by reference doesn't always behave as expected. The issue is that the loop's internal pointer is not updated correctly after using `unset()`, leading to unexpected behavior.  The `bug.php` file shows the problematic code, while `bugSolution.php` offers a corrected version.
